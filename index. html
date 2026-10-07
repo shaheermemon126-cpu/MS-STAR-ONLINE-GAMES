@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#111827">
+
+    <title>Tech Games Online</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+<header>
+    <h1>🎮 Tech Games Online</h1>
+    <p>Play free games online</p>
+</header>
+
+<main>
+
+    <section class="games">
+
+        <div class="game-card">
+            <div class="game-image">🎮</div>
+
+            <h2>My First Game</h2>
+
+            <p>Play this awesome game online.</p>
+
+            <a class="play-button" href="games/game1/index.html">
+                ▶ Play Game
+            </a>
+        </div>
+
+        <div class="game-card">
+            <div class="game-image">🏎️</div>
+
+            <h2>Racing Game</h2>
+
+            <p>Coming soon...</p>
+
+            <button class="disabled-button">
+                Coming Soon
+            </button>
+        </div>
+
+    </section>
+
+    <section class="install">
+        <h2>📱 Install Website</h2>
+
+        <p>
+            Android Chrome mein menu ⋮ open karke
+            <b>Add to Home screen</b> select karo.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Tech Games Online</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
